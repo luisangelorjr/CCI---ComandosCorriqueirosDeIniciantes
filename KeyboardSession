@@ -1,0 +1,10 @@
+//1) Crie um arquivo no diretório "/home/nome_usuário/" chamado ".xsessionrc".
+//2) Edite o arquivo criado "/home/nome_usuário/.xsessionrc" e adicione as informações abaixo e salve o arquivo:
+
+#!/bin/bash
+setxkbmap -model thinkpad60 -layout br
+
+//3)Agora é só testar efetuando o logof no sistema e logar novamente.
+//OBS.: Esta solução foi realizado em notebook Lenovo Thinkpad E430, com sistema operacional Ubuntu 12.10.
+
+//Retirado de http://ubuntuforum-br.org/index.php?topic=102188.0
