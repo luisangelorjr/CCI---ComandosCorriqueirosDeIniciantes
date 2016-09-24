@@ -1,0 +1,17 @@
+#Instalar Scanner MG2410
+Canon Printer Driver & ScanGear MP For Ubuntu 14.04
+Install Canon Drivers / ScanGear in Ubuntu 14.04:
+1. To get started, press Ctrl+Alt+T on keyboard to open terminal. When it opens, paste the command below and hit enter to run:
+sudo add-apt-repository ppa:inameiname/stable
+Type in your user password when it asks and hit Enter to continue. This will add the PPA repository into your system.
+2. After that, open Synaptic Package Manager from the Unity Dash. If you don’t find it, search for and install it from Ubuntu Software Center.
+Do:
+1. Click the Reload button to refresh your system cache.
+To install a printer driver:
+In Quick filter box, type in cnijfilter.
+To install a ScanGear:
+In Quick filter box, type in scangearmp.
+2. Select a package in the result list that matches your device.
+3. Right-click on the package and select “Mark for Installation”
+4. Finally click on the “Apply” button to install the driver.
+Once the printer and scanner drivers are installed, connect your device to the computer and start Printers utility test if it works. And launch the Simple Scan utility and select your scanner from app menu Documents -> Preferences -> Scan Source to test if the scanner works.
